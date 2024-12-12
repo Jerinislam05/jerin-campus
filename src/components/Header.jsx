@@ -11,7 +11,7 @@ const Header = () => {
       <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-5">
         <h1 className="col-span-1">
           <a href="/" className="logo">
-            <img src="/ss.ico" width={40} height={40} alt="Jerin's Canvas" />
+            <img src="/logo4.ico" width={40} height={40} alt="Jerin&apos;s Canvas" />
           </a>
         </h1>
 
