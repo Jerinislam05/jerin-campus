@@ -1,6 +1,3 @@
-import { key } from "localforage";
-import { number } from "prop-types";
-
 const AboutItems = [
   {
     label: "Projects done",

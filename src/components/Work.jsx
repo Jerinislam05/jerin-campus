@@ -42,7 +42,7 @@ const works = [
 const Work = () => {
   return (
     <section 
-    id=""
+    id="work"
     className="section"
     >
         <div className="container">
