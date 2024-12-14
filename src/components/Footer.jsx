@@ -45,7 +45,7 @@ const Footer = () => {
       <div className="container">
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
-            <h2 className="headline-1 mb-8 lg:max-w-[12ch]">
+            <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
               let&apos;s work together today!
             </h2>
 
@@ -53,19 +53,20 @@ const Footer = () => {
               href="mailto:jerinislam05@gmail.com"
               label="Start Project"
               icon="chevron_right"
+              classes="reveal-up"
             />
           </div>
 
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
             <div>
-              <p className="mb-2">Sitemap</p>
+              <p className="mb-2 reveal-up">Sitemap</p>
 
               <ul>
                 {sitemap.map(({ label, href }, key) => (
                   <li key={key}>
                     <a
                       href={href}
-                      className="block text-sm text-zinc-400 py-1 transition-colors hover:bg-zinc-200"
+                      className="block text-sm text-zinc-400 py-1 transition-colors hover:bg-zinc-200 reveal-up"
                     >
                       {label}
                     </a>
@@ -75,7 +76,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="">Socials</p>
+              <p className="mb-2 reveal-up">Socials</p>
 
               <ul>
                 {socials.map(({ label, href }, key) => (
@@ -95,15 +96,12 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center justify-between pt-10 mb-8">
-          <a href="" className="href">
-            <img src="/public/logo4.ico" width={40} height={40} alt="" />
+          <a href="/" className="logo reveal-up">
+            <img src="/logo4.ico" width={40} height={40} alt="Logo" />
           </a>
 
-          <p className="text-zinc-500 text-sm">
-            &copy; 2024 <span 
-                className="text-zinc-200">
-                    codewithjerin
-                </span>
+          <p className="text-zinc-500 text-sm reveal-up">
+            &copy; 2024 <span className="text-zinc-200">codewithjerin</span>
           </p>
         </div>
       </div>
